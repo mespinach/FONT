@@ -1,0 +1,63 @@
+html,body {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #f0f0f0;
+  color: #aaa
+}
+
+h1{
+  font-weight: 200;
+  margin: unset;
+  font-size: 3.5em;
+  color: #666;
+}
+
+.title {
+  font-weight: 200;
+  color: #d2d2d2;
+  font-size: 7.5em;
+  margin-top: -0.7em;
+  text-align: right;
+  margin-bottom: -2em;
+}
+#How-to{
+
+}
+
+#nav{
+  margin-top: 3em;
+  color: #666;
+  font-size: 4em;
+
+    font-family: 'Roboto Slab', serif;
+
+
+  text-align: right;
+}
+.txt-rotate{
+	font-weight: 100;
+
+    font-family: 'Pacifico', cursive;
+
+	color: #ff5349;
+}
+/*Mobile phones*/
+@media only screen and (max-width: 1080px) {
+	html, body{
+		padding: 0.5em 1em;
+	}
+	h1{
+		font-size: 5em;
+	}
+.title {
+font-family: 'Jockey One';
+font-size: 12em;
+color: #fff;
+margin-top: 0.5em;
+padding-bottom: 2.5em;
+line-height: 170px;
+}
+#nav {
+    font-size: 5em;
+}
